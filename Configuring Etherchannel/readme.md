@@ -7,3 +7,4 @@ In this lab, I configured **EtherChannel** using three different methods:
    
 Additionally, I configured SVIs on DSW1 and DSW2 to serve as the default gateways for the PCs and the Server.
 A dedicated /30 subnet was also configured on the routed EtherChannel link between DSW1 and DSW2 to enable inter-switch routing.
+Network connectivity can be verified using the `ping` command to the corresponding IP addresses.
